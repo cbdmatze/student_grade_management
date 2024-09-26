@@ -1,1 +1,9 @@
+def main():
+    number_of_students = 5
+    number_of_grades = 3
 
+    assign_random_grades(number_of_students, number_of_grades)
+
+
+if __name__ == "__main__":
+    main()
