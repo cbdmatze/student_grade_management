@@ -1,0 +1,15 @@
+import random
+
+def assign_random_grades(number_of_students, number_of_grades):
+    all_grades = {}
+
+    for i in range(number_of_students + 1):
+        student_grades = []
+
+        for _ in range(number_of_grades):
+            grade = random.randint(50, 100)
+            student_grades.append(grade)
+        all_grades[f"Student {i}"] = student_grades
+    
+    return all_grades
+  
